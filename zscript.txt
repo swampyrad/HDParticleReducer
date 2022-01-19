@@ -1,0 +1,44 @@
+﻿version "4.5"
+
+class InvisPuff:HDPuff
+{override void beginplay() {Destroy();}}
+
+class NoBulletPuff:InvisPuff replaces BulletPuff{}
+
+class NoDebris:InvisPuff replaces HDDebris{}
+
+class NoWallChunk:InvisPuff replaces WallChunk{}
+
+class NoWallChunker:InvisPuff replaces WallChunker{}
+
+class NoBigPuff:InvisPuff replaces BulletPuffBig{}
+
+class NoMediumPuff:InvisPuff replaces BulletPuffMedium{}
+
+class NoSmallPuff:InvisPuff replaces BulletPuffSmall{}
+
+class NoPenePuff:InvisPuff replaces PenePuff{}
+
+class NoHDPuff:InvisPuff replaces HDPuff{}
+
+class NoHDBulletPuff:InvisPuff replaces HDBulletPuff{}
+
+class NoFragPuff:InvisPuff replaces FragPuff{}
+
+class NoHDSmoke:InvisPuff replaces HDSmoke{}
+
+class NoHDSmokeChunk:InvisPuff replaces HDSmokeChunk{}
+
+class NoHDGunSmoke:InvisPuff replaces HDGunSmoke{}
+
+class NoHDStillSmoke:InvisPuff replaces HDGunSmokeStill{}
+
+class NoHDSmallSmoke:InvisPuff replaces HDSmokeSmall{}
+
+class NoBulletChip:InvisPuff replaces BulletChip{}
+
+class NoBulletChipSmall:InvisPuff replaces BulletChipSmall{}
+
+class NoHDB_frag:InvisPuff replaces HDB_frag{}
+
+class NoHDB_scrap:InvisPuff replaces HDB_scrap{}
